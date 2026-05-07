@@ -33,18 +33,21 @@ Layer diagrams below use this approximate ASCII convention:
 +-----+-----+-----+-----+-----+-----+-----+                                                   +-----+-----+-----+-----+-----+-----+-----+
 | Tab |  Q  |  W  |  E  |  R  |  T  |  xx |                                                   |  xx |  Y  |  U  |  I  |  O  |  P  |  \  |
 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+                     +-----+-----+-----+-----+-----+-----+-----+
-| Esc/|  A  |  S  |  D  |  F  |  G  |  xx |Ctrl |Alt  | Cmd |Ctrl |  xx |                     |  H  |  J  |  K  |  L  |  ;  |  '  |
+| Esc/|  A  |  S  |  D  |  F  |  G  |  xx |Ctrl |Alt  | Cmd |Ctrl |Enter|                     |  H  |  J  |  K  |  L  |  ;  |  '  |
 | Cmd |     |     |     |     |     |     |     |     |     |     |     |                     |     |     |     |     |     |     |
 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+         +-----+-----+-----+-----+-----+-----+
 |Shift|  Z  |  X  |  C  |  V  |  B  |  xx |  xx |Home |  xx |  xx | PgUp |  xx |  xx |         |  N  |  M  |  ,  |  .  |  /  |Shift|
 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+         +-----+-----+-----+-----+-----+-----+
-|MOVE▼|  `  |Caps |  [  |  ]  |BSPC | Del | End |PgDn |Enter|Space|LWR▼ |RSE▼ |  {       }     Enter
+|MOVE▼|  `  |Caps |  [  |  ]  |BSPC |LWR▼ | End |PgDn |RSE▼ |Space| Del |  xx |  {       }     Enter
 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
 ```
 
-**Thumb summary:**
-- LEFT: `MOVE-hold` | `Tab` | `Caps` | `[` | `]` | `BSPC` | `Del` | `End` | `PgDn`
-- RIGHT: `Enter` | `Space` | `LOWER-hold` | `RAISE-hold` | `{` | `}` | `Enter`
+**Thumb summary (BIG keys flagged):**
+- LEFT cluster: `BSPC` (big outer) · `LOWER-hold` (big inner) · `End` (small bottom)
+- RIGHT cluster: `RAISE-hold` (big inner) · `Space` (big outer) · `PgDn` (small bottom)
+- Far-left bottom row: `MOVE-hold`, `` ` ``, `Caps`, `[`, `]`
+- Far-right bottom row: `Del`, (free), `{`, `}`, `Enter`
+- Enter is also on the small key left of `H` for quick right-hand reach
 
 ---
 
